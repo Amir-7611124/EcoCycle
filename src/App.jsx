@@ -284,14 +284,7 @@ function App() {
                 spreading environmental culture in Egyptian society.
               </p>
             </div>
-            <div className="about-stats">
-              {STATS.map((stat, index) => (
-                <div key={index} className="stat-card">
-                  <div className="stat-number">{stat.number}</div>
-                  <div className="stat-label">{stat.label}</div>
-                </div>
-              ))}
-            </div>
+        
           </div>
         </div>
       </section>
@@ -323,9 +316,9 @@ function App() {
             <div className="footer-section">
               <h4>Contact Us</h4>
               <ul>
-                <li>📞 +20 123 456 7890</li>
-                <li>📧 info@ecocycle-egypt.com</li>
-                <li>📍 Cairo, Egypt</li>
+                <li>📞 +20 101 020 8264</li>
+                <li>📧 EcoCycleEgypt@gmail.com</li>
+                <li>📍 Alexandria, Egypt</li>
               </ul>
             </div>
           </div>
